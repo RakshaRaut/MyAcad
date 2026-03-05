@@ -1,0 +1,122 @@
+.app-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tab {
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.tab.active {
+  background: #0b5fff;
+  color: #fff;
+  border-color: #0b5fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1rem;
+}
+
+.one-column {
+  grid-template-columns: 1fr;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  background: #fff;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.toggles {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.inline-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: end;
+}
+
+.notice {
+  background: #f5f7ff;
+  border: 1px dashed #aac0ff;
+  padding: 0.65rem;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.bar-wrap {
+  margin: 0.45rem 0;
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  background: #ebedf5;
+}
+
+.bar {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: #0b5fff;
+}
+
+.form {
+  display: grid;
+  gap: 0.6rem;
+}
+
+input,
+select,
+button {
+  padding: 0.55rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+  font: inherit;
+}
+
+button {
+  background: #0b5fff;
+  color: #fff;
+  border: 1px solid #0b5fff;
+}
+
+pre {
+  background: #111827;
+  color: #e5e7eb;
+  padding: 0.8rem;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
